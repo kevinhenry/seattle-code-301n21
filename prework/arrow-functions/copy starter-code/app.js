@@ -226,6 +226,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 //    "this" is bound to this instance of Student - joe
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//    "this: "
+//    "this" is the value of the enclosing functional scope - scopeArrow
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//    
